@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup>
+    <service name="HelloService" serviceDocumentation="HelloService" exposedAllTransports="true" serviceDeployedTime="1441286065763" successfullyAdded="true">
+        <operation name="greet">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="POXSecurityModule" version="4.2.3" type="engagedModules"/>
+            <module name="wso2statistics" version="4.2.2" type="engagedModules"/>
+            <module name="ServerAdminModule" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="HelloServiceSoap12Binding">
+                <operation name="greet"/>
+            </binding>
+            <binding name="HelloServiceSoap11Binding">
+                <operation name="greet"/>
+            </binding>
+            <binding name="HelloServiceHttpBinding">
+                <operation name="greet"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <module name="POXSecurityModule" version="4.2.3" type="engagedModules"/>
+        <module name="wso2statistics" version="4.2.2" type="engagedModules"/>
+        <module name="ServerAdminModule" version="4.2.0" type="engagedModules"/>
+        <module name="pagination" version="4.2.0" type="engagedModules"/>
+        <parameter locked="true" name="ServiceClass">org.wso2.appserver.sample.helloworld.HelloService</parameter>
+    </service>
+</serviceGroup>
