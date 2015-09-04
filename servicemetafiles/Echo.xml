@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><serviceGroup>
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="Echo" hashValue="1ec8ae1cf8b3c9d7acc7c55e487d38a9" successfullyAdded="true">
     <service name="echo" serviceDocumentation="echo" exposedAllTransports="false" serviceDeployedTime="1441286064875" successfullyAdded="true">
         <operation name="echoStringArrays">
             <module name="addressing" version="4.2.0" type="engagedModules"/>
